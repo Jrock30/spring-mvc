@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 @WebServlet(name = "memberMemberListServlet", urlPatterns = "/servlet-mvc/members")
-public class MemberMemberListServlet extends HttpServlet {
+public class MvcMemberListServlet extends HttpServlet {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
 
